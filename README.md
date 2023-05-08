@@ -2,7 +2,7 @@
 
 ![Demo](./docs/img/demo.gif)
 
-This project is a command-line tool written in C that allows users to manage products within a warehouse. The list of products is stored in the "Products.bin" file, and the tool allows users to order or sell products by updating the "Products.bin" file accordingly. Each product has a value that identifies the minimum quantity of pieces that must be in stock (critical quantity). If the stock falls below this value, an order must be placed. Additionally, this value is used to determine the maximum quantity of pieces for each product, which is equal to the minimum quantity multiplied by 5.
+This project is a set of command-line tools written in C that allows users to manage products within a warehouse. The list of products is stored in the "Products.bin" file, and the tool allows users to order or sell products by updating the "Products.bin" file accordingly. Each product has a value that identifies the minimum quantity of pieces that must be in stock (critical quantity). If the stock falls below this value, an order must be placed. Additionally, this value is used to determine the maximum quantity of pieces for each product, which is equal to the minimum quantity multiplied by 5.
 
 - create-product-list: Creates a new list of products and stores it in the "Products.bin" file.
 - warehouse-management-tool: Manages the products within the warehouse using Products.bin in the local folder as the source of data.
